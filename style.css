@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkturquoise;
+}
+.box{
+background-color: #ffffff;
+width: 40%;
+height: 60vh;
+box-sizing: border-box;
+box-shadow:5px 7px 9px 10px rgba(54, 53, 53, 0.3);
+position: relative;
+}
+#quotes{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-150%);
+    font-weight: bold;
+    font-size: 21px;
+}
+#author{
+position: absolute;
+top: 65%;
+left: 70%;
+}
+#newQ{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    outline: none;
+    background-color: rgb(45, 71, 71);
+    color: #ffffff;
+    cursor: pointer;
+    height: 35px;
+    font-size: 17px;
+}
